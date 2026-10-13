@@ -1,0 +1,10 @@
+pymupdf>=1.28,<2
+sentence-transformers>=6.1,<7
+rank-bm25==0.2.2
+numpy>=2.2,<3
+google-genai>=2.29,<3
+streamlit>=1.65,<2
+python-dotenv>=1.0,<2
+pytest>=9.1,<10
+# torch é instalado como dependência do sentence-transformers.
+# Com GPU NVIDIA, instale antes a versão com CUDA: https://pytorch.org/get-started/locally/

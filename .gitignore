@@ -1,0 +1,11 @@
+# segredos
+.env
+
+# ambiente
+.venv/
+__pycache__/
+.pytest_cache/
+
+# dados gerados ou baixados (recriados por rag_nrs.download e rag_nrs.index)
+data/raw/
+data/index/embeddings.npy
